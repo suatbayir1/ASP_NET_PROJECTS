@@ -1,0 +1,46 @@
+﻿
+@model PagedList.IPagedList<MVCstok.Models.Entity.TBL_MUSTERILER>
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<section id="musteriListe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Müşteri ID</th>
+                            <th>Müşteri Ad</th>
+                            <th>Müşteri Soyad</th>
+                            <th>Sil</th>
+                            <th>Güncelle</th>
+                            <th>Alert</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var musteri in Model)
+                        {
+                            <tr>
+                                <td>@musteri.MUSTERIID</td>
+                                <td>@musteri.MUSTERIAD</td>
+                                <td>@musteri.MUSTERISOYAD</td>
+                                <td>@Html.ActionLink("Sil", "Sil", "Musteri", new { @Id = musteri.MUSTERIID }, new { @class = "btn btn-danger" })</td>
+                                <td>@Html.ActionLink("Güncelle", "MusteriGetir", "Musteri", new { @Id = musteri.MUSTERIID }, new { @class = "btn btn-warning" })</td>
+                                <td>@Html.ActionLink("Sil2","Sil",new { @Id = musteri.MUSTERIID}, new { @class = "btn btn-info", onclick = "return confirm('Seçtiğiniz musteri silinecektir. Emin misiniz ?')" })</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                @Html.PagedListPager((IPagedList)Model, sayfa=> Url.Action("Index", new { sayfa}))
+                @Html.ActionLink("Yeni Müşteri Ekle", "Ekle", "Musteri",null, new { @class = "btn btn-primary"})
+            </div>
+        </div>
+    </div>
+</section>

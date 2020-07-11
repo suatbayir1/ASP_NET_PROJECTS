@@ -1,0 +1,74 @@
+admin ve kullanýcý sayfasýna bootstrap kullanarak slider yapýmý
+dosyalar veritabaný oluþturuldu.
+veritabanýna talep ile birlikte dosya ekleme eklendi.
+admin sayfasýna talep ile birlikte gelen dosya varsa o dosyayý açma eklendi.
+
+bootstrap kurulumu
+https://getbootstrap.com/ sitesinden bootstrap zip dosyasý download edildi.Bu dosyanýn içindeki css ve js klasörlerinde
+bootstrap.cs ve bootsrap.js dosyalarý kullanýcagýmýz proje dosyalarýnýn içine aktarýldý.Bu dosyalarýn içinde
+bootstrap ýn hazýr fonksiyonlarý ve class larý bulunmaktadýr.
+jquery ve popper dosyalarý projeye dahil edildi.
+
+
+JavaScript Nedir?
+
+JavaScript web sayfalarýný interaktif hâle getirebilmek için geliþtirilmiþ bir betik dildir.
+ Kýsaltmasý JS'dir. Sunucu tabanlý deðildir; kullanýcý tabanlýdýr. Bu yüzden hosting hizmeti veren server'larý yormazlar.
+'95 senesinde Java adlý yeni bir programlama dili piyasaya sürülmekteydi. NetScape firmasý ise bu 
+betik dilin daha popüler olmasý adýna ismini JavaScript koyarak piyasaya sürdüler. Java ile JavaScript arasýnda 
+isim benzerliði dýþýnda bir ilgi yoktur.
+JavaScript daha çok internet sayfalarýnda anket, quiz, uyarý penceresi gibi interaktif uygulamalarda kullanýlýr.
+Örneðin; kullanýcý herhangi bir formda onayla tuþuna bastý; fakat þifresini yazmayý unuttu. Kullanýcý 
+"Þifrenizi belirlemeyi unuttunuz!" bildirimi olan bir açýlýr pencere uyarýsý alabilir. Ýþte bunu saðlayan 
+JavaScript'tir.
+
+jQuery Nedir?
+
+jQuery logo
+jQuery bir JavaScript kütüphanesidir. 2006 yýlýna kadar çok fazla karmaþýk JavaScript kütüphanesi kullanýlýyordu. 
+John Resig ise jQuery'yi geliþtirerek bu JavaScript kütüphanelerini daha sade ve anlaþýlýr bir hâle getirdi.
+ Ardýndan web geliþtiricilerinin hizmetine sundu. Birkaç sene içerisinde de jQuery tüm dünyada popüler oldu.
+jQuery'nin sloganý "az kod çok iþ"tir. Bu þekilde birkaç kod ile animasyonlar, slider efektleri ve 
+gizleme - gösterme efektleri yapýlabilir. HTML5 ve CSS3 desteði oldukça fazladýr. 
+Bugün birçok web sitesinin neredeyse tamamý jQuery kullanmaktadýr.
+
+Bootstrap Nedir?
+
+Bootstrap Front-End Developerlar için geliþtirilmiþ açýk kaynak kodlu ve ücretsiz bir CSS framework'tür. 
+Bootstrap sayesinde masaüstü, tablet, mobil cihaz ve tüm tarayýcýlara uyumlu web siteleri geliþtirebiliriz. 
+Bunun yanýnda bir web sitesi için gerekli olan tüm bileþenleri yapýsýnda barýndýrýr. 
+(Form öðeleri, tablolar, butonlar, uyarýlar, navigasyon bar, sayfalandýrma, etiketler, 
+açýlan menüler vb. tasarým öðeleri.) Bu hazýr bileþenleri kullanarak hem geliþmiþ bir görünüm hem de her 
+cihaza uygun bir tasarým gerçekleþtirmiþ oluruz.
+
+Bootstrap Nasýl Kullanýlýr?
+
+Öncelikle sayfamýz Html5 olmalý ve Bootstrap'ý kullanabilmemiz için bootstrap css dosyasýný 
+sayfamýza dahil etmemiz gerekiyor. Eðer javascript gerektiren durumlar olursa bootstrap javascript'ini 
+ve jquery script'ini sayfamýza dahil etmemiz gerekiyor. (Örn: Açýlýr menü yapýmýnda sadece bootstrap css 
+dosyasýný dahil edersek açýlýr menü tasarýmsal olarak oluþturulur. Fakat iþlevini yerine getiremez.
+Açýlýr menüye týkladýðýmýzda açýlmasýný istiyorsak bootstrap javascript'i ve jquery script'ini dahil etmemiz gerekir. 
+
+   		
+/*BOOTSTRAP KURULMUÞ ANASAYFA*/
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!--JavaScript Linkleri-->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </body>
+</html>
+

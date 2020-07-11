@@ -1,0 +1,330 @@
+﻿
+/* GENEL CLASSLAR */
+
+.buton{
+    width:100px;
+    height:30px;
+    text-align:center;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+    height:55px;
+}
+
+.navbar li :hover{
+    background-color:#795d04;
+    /*background-color: #141212;*/
+}
+
+.navbar {
+    font-size: 25px;
+}
+
+.navbar .nav-item .nav-link{
+    font-size:25px;
+    color:#907211;
+}
+
+.navbar .nav-link i{
+    padding-top:8px;
+    font-size:25px;
+    margin-left:5px;
+}
+
+.navbar .a{
+    font-size:10px;
+}
+
+
+/* ANASAYFA */
+
+/* AÇILIŞ RESMİ */
+
+#acılısresmi {
+    background: url("../images/acılısresmi.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#acılısresmi .overlay{
+    background-color: rgba(0,0,0,0.8);
+}
+
+#acılısresmi .row{
+    height:100vh;
+}
+
+#acılısresmi h3{
+    margin-top:200px;
+    color:#795d04;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+#acılısresmi span{
+    color:#1886C7;
+}
+
+#acılısresmi .renkdegistir:hover {
+    background-color: green; /* BUTON RENGİNİ DEĞİŞTİRME */
+}
+
+/* PROGRAMLAMA TÜRLERİ */
+
+#türler{
+    margin-top:50px;
+}
+
+#türler .col-md-4 img{
+    width:300px;
+    height:200px;
+}
+
+#türler .col-md-4 h2{
+    margin-top:8px;
+    font-size:20px;
+    color:#1886C7;
+}
+
+#türler .col-md-4 p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#türler .col-md-4 i{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:40px;
+    color: #1886C7;
+}
+
+/* PROGRAMLAMA DİLLERİ */
+
+#diller {
+    margin-top: 50px;
+}
+
+#diller i{
+    font-size:40px;
+    color:#1886C7;
+}
+
+#diller .col-md-6 h3{
+    color:#1886C7;
+    font-size:25px;
+}
+
+#diller .col-md-6 img{
+    height:400px;
+    width:600px;
+}
+
+    #diller .sagakaydır {
+        margin-top:50px;
+        background-color: #fff;
+        margin-right: -100px;
+        z-index: 100;
+        position: relative;
+    }
+
+#diller .renkdegistir:hover {
+    background-color: green; /* BUTON RENGİNİ DEĞİŞTİRME */
+}
+
+
+/* SLİDER */
+
+#testimonials {
+    margin-top:50px;
+    background: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(../images/b2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#testimonials img{
+    height:300px;
+    width:800px;
+}
+
+#testimonials i{
+    color:#1886C7;
+    margin-bottom:10px;
+}
+
+
+/* FREELANCE */
+
+#freelance{
+    margin-top:50px;
+}
+
+#freelance img{
+    height:180px;
+}
+
+#freelance h4{
+    font-style:italic;
+    font-size:20px;
+    color:#1886C7;
+}
+
+#freelance  h3{
+    color:#1886C7;
+    font-size:25px;
+}
+
+#freelance i{
+    font-size:30px;
+    color:#1886C7;
+}
+
+#freelance p{
+    font-style:italic;
+}
+
+#freelance .renkdegistir:hover{
+    background-color:green;
+}
+
+
+/* GALERİ */
+
+#galeri{
+    margin-top:50px;
+}
+
+#galeri .col-md-3{
+    padding-left:0px;
+    padding-right:0px;
+    text-align:center;
+}
+
+#galeri img{
+    width:340px;
+    height:250px;
+}
+
+#galeri i{
+    font-size:40px;
+    color:black;
+}
+
+#galeri h4{
+    color:black;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1886C7;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .7;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HAKKIMDA SAYFASI */
+
+#tanıtım{
+    margin-top:50px;
+    margin-left:0 !important;
+}
+
+#tanıtım i{
+    color:#1886C7;
+    font-size:25px;
+}
+
+#tanıtım  .container .row .col-md-6 h3{
+    color:#795d04 !important;
+}
+
+/* İLETİŞİM */
+
+#iletisim{
+    margin-bottom:90px;
+    margin-top:30px;
+}
+
+#iletisim .input-group-addon {
+    width: 40px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #1886C7;
+}
+
+#iletisim i{
+    color:white;
+    text-align:center;
+}
+
+#iletisim .form-control, #contact .btn {
+    border-radius: 0;
+}
+
+#iletisim textarea{
+    resize:none;
+}
+
+#iletisim h3{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#iletisim .font:hover{
+    background-color:green;
+}
+
+#iletisim .font{
+    font-size:18px;
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color:black;
+}
+
+#footer p{
+    color:white;
+    margin-top:6px;
+    font-size:18px;
+}

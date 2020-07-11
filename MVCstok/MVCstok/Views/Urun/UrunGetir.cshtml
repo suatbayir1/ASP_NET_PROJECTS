@@ -1,0 +1,70 @@
+﻿@model MVCstok.Models.Entity.TBL_URUNLER
+
+@{
+    ViewBag.Title = "UrunGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>UrunGetir</h2>
+
+@using (Html.BeginForm("Guncelle","Urun",FormMethod.Post,new { @class="form-horizantal"}))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.URUNID, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.URUNID, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.URUNID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.URUNAD, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.URUNAD, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.URUNAD, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MARKA, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.MARKA, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.MARKA, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.URUNKATEGORI, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.TBL_KATEGORILER.KATEGORIID, (List<SelectListItem>)ViewBag.liste, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.URUNKATEGORI, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FIYAT, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.FIYAT, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.FIYAT, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.STOK, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.STOK, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.STOK, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Kaydet" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+}

@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="anasayfa.master.cs" Inherits="Kisişel_Web_Sitem.anasayfa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- STYLE CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- LightBox CSS -->
+    <link href="css/lightbox.css" rel="stylesheet" />
+
+    <title>Hello, world!</title>
+
+</head>
+<body>
+    <form id="form1" runat="server">   
+
+    <!-- NAVBAR -->
+
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <a class="navbar-brand" href="anasayfa.aspx">SUAT BAYIR</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link ml-2" href="anasayfa.aspx">Anasayfa</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link ml-2" href="hakkımda.aspx">Hakkımda</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link ml-2" href="kodlar.aspx">Örnek Kodlar</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link ml-2" href="iletisim.aspx">İletişim</a>
+              </li>
+              <li>
+                  <a class="nav-link ml-2 active" href="https://www.instagram.com/jsuatbayir/?hl=tr"><i class=" a fa fa-instagram"></i></a>
+              </li>
+              <li>
+                  <a class="nav-link ml-2 active" href="#"><i class=" a fa fa-twitter"></i></a>
+              </li>
+              <li>
+                  <a class="nav-link ml-2 active" href="https://www.linkedin.com/in/suat-bayir-82764b153/"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+
+
+        <!-- FOOTER -->
+
+        <section id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="lead">&copy;2018 Tüm Hakları Saklıdır.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/lightbox.js"></script>
+    </form>
+
+
+
+</body>
+</html>

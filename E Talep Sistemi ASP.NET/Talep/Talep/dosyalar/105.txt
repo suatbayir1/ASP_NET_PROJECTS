@@ -1,0 +1,20 @@
+1.(yapýldý)	Kiþinin telefon, adres ve e-postalarýnýn tutulduðu rehber
+2.(yapýldý)     Öðrenci takip programý (öðrencinin kiþi bilgileri, devam ve notlarý takip edilecek)
+3.	        Banka müþteri hesap takip programý
+4.	        Kim 500 milyar ister programý 
+5.(yapýldý)	YGS ve LYS puanlarý hesaplayan program
+6.	        Hastane programý
+7.	        Eczane programý
+8.	        Tren Bilet rezervasyon programý
+9.	        Otobüs Bilet rezervasyon programý
+10.	        Uçak Bilet rezervasyon programý
+11.		Sinema rezervasyon programý
+12.	        Kütüphane takip programý
+13.	        Türkçe Sözlük programý
+14.	        Türkçe-Ýngilizce ve Ýngilizce-Türkçe programý
+
+
+
+
+
+

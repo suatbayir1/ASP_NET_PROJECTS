@@ -1,0 +1,29 @@
+dosya eklemeyi düzelt
+mesaj göndermeyi düzelt
+talep durumlarýndaki ekleme sil görüntüle kýsýmlarýný düzelt
+
+datagriedview kullanýmý 
+kullanýcý bilgilerini datagriedview e çekme iþlem durumuna göre gridview sutunlarýný renklendýrme
+düzenleme silme görüntüleme iþlemlerini gerçekleþtirme
+
+gönderilecek kiþi ýd'lerini combobox'a çekme
+
+admin ve kullanýcý kayýt daha önceden o kayýtlar varsa ekleme yapýlmamaya ayarlandý.
+
+dropdownlist,calendar kullanýmý
+
+
+                         <SelectParameters>
+                                <asp:ControlParameter Name="t_ID" ControlID="lbl_kID" PropertyName="Text"/>
+                                <asp:ControlParameter Name="k1" ControlID="Calendar1" PropertyName="SelectedDate" />
+                                <asp:ControlParameter Name="k2" ControlID="Calendar2" PropertyName="SelectedDate" />
+                        </SelectParameters>  
+
+admin talep durumlarýnda talep ýdsini tutma
+kullanýcý gelen mesajlar butonuna okunmamýs mesaj sayýsý ekleme
+tum sayfalarý master page ile duzenleme
+kullanýcý talepler tasarýmý düzenleme
+talep gonderýrken dosya yolunu talep ýdyle ýlýskýlendýrýp kaydedýp acma ýmage button kullanýlacak
+admin talep goster ýd yanýna kullanýcý adý ve soyadý gosterme
+
+calendar kullanarak 2 tarih arasýnda gelen talepleri görüntüleme

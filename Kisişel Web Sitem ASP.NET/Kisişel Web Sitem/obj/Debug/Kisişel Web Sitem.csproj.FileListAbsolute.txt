@@ -1,0 +1,168 @@
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll.config
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.pdb
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.exe
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.exe.config
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.rsp
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.exe
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.exe.config
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.rsp
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.AppContext.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Console.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Compression.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Claims.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.ValueTuple.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.exe
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.exe.config
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.rsp
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csprojAssemblyReference.cache
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CoreCompileInputs.cache
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CopyComplete
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.dll
+C:\Users\hekim\OneDrive\Masaüstü\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.pdb
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll.config
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\Kisişel Web Sitem.pdb
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.exe
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.exe.config
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csc.rsp
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.exe
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.exe.config
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\csi.rsp
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.AppContext.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Collections.Immutable.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Console.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Compression.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.AccessControl.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Claims.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.ValueTuple.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.exe
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.exe.config
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\vbc.rsp
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe.config
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csprojAssemblyReference.cache
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CoreCompileInputs.cache
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CopyComplete
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.dll
+D:\Projeler\Kisişel Web Sitem\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.pdb
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll.config
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\Kisişel Web Sitem.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\Kisişel Web Sitem.pdb
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csc.exe
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csc.exe.config
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csc.rsp
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csi.exe
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csi.exe.config
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\csi.rsp
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.AppContext.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Collections.Immutable.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Console.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.IO.Compression.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.IO.Pipes.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.AccessControl.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Claims.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.ValueTuple.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\vbc.exe
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\vbc.exe.config
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\vbc.rsp
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\roslyn\VBCSCompiler.exe.config
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csprojAssemblyReference.cache
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CoreCompileInputs.cache
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.csproj.CopyComplete
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.dll
+D:\Projeler\ASP.NET Web Tabanlı Projeler\Kisişel Web Sitem ASP.NET\Kisişel Web Sitem\obj\Debug\Kisişel Web Sitem.pdb

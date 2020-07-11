@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #e1e1e1;
+}
+
+.butonGorsel {
+    background-color: #2a595c;
+    color: #fff;
+    height:30px;
+    width:200px;
+}
+
+.butonGorsel:hover {
+    background-color: rgba(42,89,92,0.70);
+    cursor:pointer;
+}
+
+.textboxGorsel {
+    border: 1px dotted #2a595c;
+    height:30px;
+    width:200px;
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    float: left;
+    background-color: #2a595c;
+    margin-top: 5px;
+    margin-left:250px;
+    margin-right:150px;
+    text-align:center;
+}
+
+.menubuton {
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #2a595c;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+}
+
+    .menubuton:hover {
+        font-weight: bolder;
+    }
+
+    #Calendar2{
+        float:left;
+    }

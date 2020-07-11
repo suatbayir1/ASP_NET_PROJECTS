@@ -1,0 +1,11 @@
+dosya eklemeyi düzelt
+mesaj göndermeyi düzelt
+talep durumlarýndaki ekleme sil görüntüle kýsýmlarýný düzelt
+
+datagriedview kullanýmý 
+kullanýcý bilgilerini datagriedview e çekme iþlem durumuna göre gridview sutunlarýný renklendýrme
+düzenleme silme görüntüleme iþlemlerini gerçekleþtirme
+
+gönderilecek kiþi ýd'lerini combobox'a çekme
+
+admin ve kullanýcý kayýt daha önceden o kayýtlar varsa ekleme yapýlmamaya ayarlandý.

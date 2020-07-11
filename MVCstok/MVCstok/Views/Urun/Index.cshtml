@@ -1,0 +1,84 @@
+﻿@model IEnumerable<MVCstok.Models.Entity.TBL_URUNLER>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("Index", "Urun", FormMethod.Get))
+{
+    <p>Aranacak ürünü girin</p>
+    @Html.TextBox("aranacakDeger")
+    <input type="submit" value="Ara" name="btnAra" />
+}
+
+
+<p>
+    @Html.ActionLink("Yeni Ürün Ekle", "Ekle")
+</p>
+<table id="tbl1" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.URUNAD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MARKA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TBL_KATEGORILER.KATEGORIAD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FIYAT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.STOK)
+            </th>
+            <th>
+                Sil
+            </th>
+            <th>Güncelle</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.URUNAD)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MARKA)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TBL_KATEGORILER.KATEGORIAD)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FIYAT)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.STOK)
+                </td>
+                <td>
+                    <div class="form-group">
+                        @Html.ActionLink("Sil", "Sil", new { @Id = item.URUNID }, new { @class = "btn btn-danger" })
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        @Html.ActionLink("Güncelle", "UrunGetir", new { @Id = item.URUNID }, new { @class = "btn btn-success" })
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>https://cdn.datatables.net/v/bs/jszip-2.5.0/dt-1.10.18/b-1.5.6/b-html5-1.5.6/fh-3.1.4/datatables.min.js"></script>
+<link href="~/Content/DataTables/css/dataTables.bootstrap4.css" rel="stylesheet" />
+
+<script>
+    $("#tbl1").DataTable();
+</script>

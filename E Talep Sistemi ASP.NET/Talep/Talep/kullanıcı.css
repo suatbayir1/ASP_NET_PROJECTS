@@ -1,0 +1,115 @@
+﻿.butonGorsel {
+    background-color: #2a595c;
+    color: #fff;
+    }
+
+.butonGorsel:hover {
+    background-color: rgba(42,89,92,0.70);
+    cursor: pointer;
+}
+    
+.textboxGorsel {
+    border: 1px dotted #2a595c;
+    }
+
+.carousel-inner .carousel-item img{
+    height:400px;
+}
+
+.menubuton {
+    margin-left: 25px;
+    width: 100px !important;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #2a595c;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 12px !important;
+    float: left;
+    cursor:pointer;
+}
+
+.menubuton2 {
+    margin-left: 25px;
+    width: 130px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #2a595c;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+}
+
+.menubuton:hover {
+        font-weight: bolder;
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.kutu {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+        width: 1000px;
+        height: 50px;
+        float: left;
+        background-color: #2a595c;
+        margin-top: 5px;
+}
+
+
+
+.kutu .govde {
+        width: 1000px;
+        height: 600px;
+        float: left;
+        margin-top: 20px;
+}
+
+.kutu .govde .govdesol {
+        width: 270px;
+        height: 300px;
+        float: left;
+}
+
+.kutu .govde .govdesol .govdesolbaslik {
+        width: 100%;
+        height: 30px;
+        float: left;
+        background-color: #2a595c;
+}
+
+.kutu .govde .govdesol .govdesolicerik {
+        width: 100%;
+        float: left;
+        height: 200px;
+        border: 1px dotted #2a595c;
+}
+
+.kutu .govde .govdesag{
+    width:700px;
+    height:600px;
+    float:right;
+}
+
+.label{
+    color:#2a595c;
+    font-size:15px;
+}

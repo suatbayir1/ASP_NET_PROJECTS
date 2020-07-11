@@ -1,0 +1,305 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{224754A0-7012-4BED-BD5C-3C166F6D0383}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Talep</RootNamespace>
+    <AssemblyName>Talep</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin2.css" />
+    <Content Include="adminAnasayfa.aspx" />
+    <Content Include="adminMesajGonder.aspx" />
+    <Content Include="Bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Bootstrap\css\bootstrap.css" />
+    <Content Include="Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\css\fontawesome.css" />
+    <Content Include="Bootstrap\css\jquery-ui.css" />
+    <Content Include="Bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Bootstrap\js\bootstrap.js" />
+    <Content Include="Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Bootstrap\js\jquery-1.12.4.js" />
+    <Content Include="Bootstrap\js\jquery-ui.js" />
+    <Content Include="Bootstrap\js\pikaday.js" />
+    <Content Include="css\pikaday.css" />
+    <Content Include="css\site.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\triangle.css" />
+    <Content Include="giris.aspx" />
+    <Content Include="images\dosya.jpg" />
+    <Content Include="images\düzenle.jpg" />
+    <Content Include="images\eyes.jpg" />
+    <Content Include="images\magnifying_glass.png" />
+    <Content Include="images\r1.jpg" />
+    <Content Include="images\r2.jpg" />
+    <Content Include="images\r3.png" />
+    <Content Include="images\r4.jpg" />
+    <Content Include="images\r5.jpg" />
+    <Content Include="images\sil.jpg" />
+    <Content Include="images\takvim.png" />
+    <Content Include="kullanıcıAnasayfa.aspx" />
+    <Content Include="Bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Bootstrap\css\bootstrap.css.map" />
+    <Content Include="Bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Bootstrap\js\bootstrap.js.map" />
+    <Content Include="Bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="yoneticiler.aspx" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminGiris.aspx" />
+    <Content Include="admin.css" />
+    <Content Include="adminKayit.aspx" />
+    <Content Include="kullanıcıBilgileri.aspx" />
+    <Content Include="kullanıcıCevapGoruntule.aspx" />
+    <Content Include="kullanıcıGelenMesajlar.aspx" />
+    <Content Include="kullanıcıGiris.aspx" />
+    <Content Include="kullanıcı.css" />
+    <Content Include="kullanıcıKayit.aspx" />
+    <Content Include="kullanıcıMesajGoster.aspx" />
+    <Content Include="kullanıcıTalepCevapları.aspx" />
+    <Content Include="kullanıcıTalepler.aspx" />
+    <Content Include="talepGonder.aspx" />
+    <Content Include="talepGoster.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminAnasayfa.aspx.cs">
+      <DependentUpon>adminAnasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAnasayfa.aspx.designer.cs">
+      <DependentUpon>adminAnasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminGiris.aspx.cs">
+      <DependentUpon>adminGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminGiris.aspx.designer.cs">
+      <DependentUpon>adminGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminKayit.aspx.cs">
+      <DependentUpon>adminKayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminKayit.aspx.designer.cs">
+      <DependentUpon>adminKayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminMesajGonder.aspx.cs">
+      <DependentUpon>adminMesajGonder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminMesajGonder.aspx.designer.cs">
+      <DependentUpon>adminMesajGonder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="giris.aspx.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="giris.aspx.designer.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıBilgileri.aspx.cs">
+      <DependentUpon>kullanıcıBilgileri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıBilgileri.aspx.designer.cs">
+      <DependentUpon>kullanıcıBilgileri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıCevapGoruntule.aspx.cs">
+      <DependentUpon>kullanıcıCevapGoruntule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıCevapGoruntule.aspx.designer.cs">
+      <DependentUpon>kullanıcıCevapGoruntule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıGelenMesajlar.aspx.cs">
+      <DependentUpon>kullanıcıGelenMesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıGelenMesajlar.aspx.designer.cs">
+      <DependentUpon>kullanıcıGelenMesajlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıGiris.aspx.cs">
+      <DependentUpon>kullanıcıGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıGiris.aspx.designer.cs">
+      <DependentUpon>kullanıcıGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıAnasayfa.aspx.cs">
+      <DependentUpon>kullanıcıAnasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıAnasayfa.aspx.designer.cs">
+      <DependentUpon>kullanıcıAnasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıKayit.aspx.cs">
+      <DependentUpon>kullanıcıKayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıKayit.aspx.designer.cs">
+      <DependentUpon>kullanıcıKayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıMesajGoster.aspx.cs">
+      <DependentUpon>kullanıcıMesajGoster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıMesajGoster.aspx.designer.cs">
+      <DependentUpon>kullanıcıMesajGoster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıTalepCevapları.aspx.cs">
+      <DependentUpon>kullanıcıTalepCevapları.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıTalepCevapları.aspx.designer.cs">
+      <DependentUpon>kullanıcıTalepCevapları.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıTalepler.aspx.cs">
+      <DependentUpon>kullanıcıTalepler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanıcıTalepler.aspx.designer.cs">
+      <DependentUpon>kullanıcıTalepler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="talepGonder.aspx.cs">
+      <DependentUpon>talepGonder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="talepGonder.aspx.designer.cs">
+      <DependentUpon>talepGonder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlBaglanti.cs" />
+    <Compile Include="talepGoster.aspx.cs">
+      <DependentUpon>talepGoster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="talepGoster.aspx.designer.cs">
+      <DependentUpon>talepGoster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticiler.aspx.cs">
+      <DependentUpon>yoneticiler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yoneticiler.aspx.designer.cs">
+      <DependentUpon>yoneticiler.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dosyalar\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58293</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58293/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+﻿@model MVCstok.Models.Entity.TBL_KATEGORILER
+
+@{
+    /**/
+
+    ViewBag.Title = "KategoriGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Kategori Güncelleme Formu</h2>
+
+@using (Html.BeginForm("Guncelle", "Kategori", FormMethod.Post, new { @class = "form-horizantal" }))
+{
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(m => m.KATEGORIID)
+            @Html.TextBoxFor(m => m.KATEGORIID, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.KATEGORIAD)
+            @Html.TextBoxFor(m => m.KATEGORIAD, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Kategori Güncelle" name="btnKaydet" class="form-control btn btn-primary" />
+        </div>
+    </div>
+}

@@ -1,0 +1,10 @@
+verileri excele aktarma
+excelden içeri alma
+calendar kullanýmýný jquery ile yapma
+profilim kýsmýný panel ile tasarýma uyarlama
+dosya varsa dosya ýconu yanacak
+
+
+
+exceldeki verileri sql veritabanýna tablo olarak ekleme.Ekleyecegimiz veritabanýnda tasks->import data deyip excel seçerek
+adýmlarý takip ediyoruz.
